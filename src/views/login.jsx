@@ -1,9 +1,9 @@
-import CreateLoginForm from "../components/loginForm"
+import CreateLoginForm from '../components/loginForm'
 
-function loginView () {
+function LoginView () {
   return (
     <CreateLoginForm/>
   )
 }
 
-export default loginView
+export default LoginView
