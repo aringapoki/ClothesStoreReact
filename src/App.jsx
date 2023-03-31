@@ -1,21 +1,15 @@
-//import LoginView from "./views/login"
-import WaiterView from "./views/waiter"
+import LoginView from "./views/login";
+import WaiterView from "./views/waiter";
 
-function View () {
+function App() {
   return (
-    // <LoginView/>
-    <WaiterView/>
-  )
+    <div>
+      <LoginView />
+      <WaiterView />
+    </div>
+  );
 }
 
-export default View
-
-// function WaiterView() {
-//   return <CreateWaiterView/>;
-// }
-
-// export default WaiterView
+export default App;
 
 
-/* En este archivo debo cargar todas las vistas e implementar el router. El renderizado condicional debería
-estar en cada archivo de vista, acá sólo el router*/

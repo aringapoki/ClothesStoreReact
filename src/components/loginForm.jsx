@@ -12,7 +12,7 @@ function CreatePassInput () {
 
 function CreateFormButton () {
     return (
-        <button className="formButton">ENVIAR A COCINA</button>
+        <button className="formButton">INICIAR SESIÓN</button>
     )
 }
 
