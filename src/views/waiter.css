@@ -17,9 +17,10 @@ body,
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  align-content: space-evenly;
 }
 
-.loginForm {
+.order {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
@@ -29,8 +30,8 @@ body,
   gap: 0.5em;
 }
 
-.inputs,
-.formButton {
+.article,
+.productButton {
   width: 19rem;
   height: 2.5rem;
   background-color: #f8ffef;
@@ -42,7 +43,7 @@ body,
   margin: 0.3em;
 }
 
-.formButton {
-padding: 1em;
-text-align: center;
+.orderButton {
+  padding: 1em;
+  text-align: center;
 }

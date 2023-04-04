@@ -1,3 +1,7 @@
+import data from "../../data.json";
+
+const products = data.products;
+
 function MenuTypeButton() {
   return (
     <div>
@@ -7,40 +11,34 @@ function MenuTypeButton() {
   );
 }
 
+//falta agregar evento onClick para que sume
 function MenuProducts() {
   return (
     <div>
-      <button>espresso</button>
-      <button>americano</button>
-      <button>macchiato</button>
-      <button>capuccino</button>
-      <button>latte</button>
-      <button>mocaccino</button>
-      <button>filtrado</button>
+      {products.map((product) =>
+      <button className="productButton">{product.name} {product.price}</button>)}      
     </div>
   );
 }
 
+const order = [];
 function Order() {
-    return (
-        <div>
-        <article>articulo 1</article>
-        <article>articulo 2</article>
-        <article>articulo 3</article>
-        <article>articulo 4</article>
-        <button>ENVIAR A COCINA</button>
+  return (
+    <div className="order">
+      <article className="article">{products[0].name} {products[0].price} </article>
+      <button className="orderButton">ENVIAR A COCINA</button>
     </div>
-    )
+  );
 }
 
-function CreateWaiterView (){
-return (
+function CreateWaiterView() {
+  return (
     <div>
-    <MenuTypeButton/>
-    <MenuProducts/>
-    <Order/>
+      <MenuTypeButton />
+      <MenuProducts />
+      <Order />
     </div>
-)
+  );
 }
 
-export default CreateWaiterView
+export default CreateWaiterView;

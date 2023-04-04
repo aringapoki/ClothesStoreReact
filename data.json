@@ -1,0 +1,5 @@
+{
+  "restaurant": "burger Queen",
+  "workers": [{ "user": "waiter123", "pass":"waiter123", "id":"1" },{ "user": "waiterABC", "pass":"waiterABC", "id":"2" },{ "user": "waiter321", "pass":"waiter321", "id":"3" }],
+  "products":[{"name": "espresso", "price": 2000, "type":"coffee"}, {"name": "americano", "price": 2200, "type":"coffee"}, {"name": "machiatto", "price": 2200, "type":"coffee"}, {"name": "cappuccino", "price": 2400, "type":"coffee"}, {"name": "latte", "price": 2600, "type":"coffee"}, {"name": "mocaccino", "price": 3000, "type":"coffee"}, {"name": "filtrado", "price": 2800, "type":"coffee"}, {"name": "tiramisú", "price": 3500, "type":"dessert"}, {"name": "lemon pie", "price": 3500, "type":"dessert"}, {"name": "NY Cheessecake", "price": 3800, "type":"dessert"}]
+}

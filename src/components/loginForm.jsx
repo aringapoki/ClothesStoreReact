@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom"
+
 function CreateUserInput () {
     return (
         <input placeholder="ingresa tu usuario" className="inputs"></input> 
@@ -11,8 +13,9 @@ function CreatePassInput () {
 }
 
 function CreateFormButton () {
+    const navigate = useNavigate()
     return (
-        <button className="formButton">INICIAR SESIÓN</button>
+        <button className="formButton" onClick={()=>navigate("/waiter")}>INICIAR SESIÓN</button>
     )
 }
 
