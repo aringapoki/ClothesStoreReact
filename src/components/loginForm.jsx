@@ -22,11 +22,13 @@ function CreateFormButton () {
 
 function CreateLoginForm () {
     return (
+        <div className="loginViewContainer">
         <form className="loginForm">
             <CreateUserInput/>
             <CreatePassInput/>
             <CreateFormButton/>
         </form>
+        </div>
     )
 }
 

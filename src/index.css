@@ -1,3 +1,5 @@
+@import url(./views/waiter.css);
+
 html,
 body,
 #root {
@@ -9,11 +11,6 @@ body,
 #root {
   background-image: linear-gradient(to right bottom, #00000060, #00000060),
     url(/src/img/loginBackground.png);
-  display: grid;
-  grid-template-columns: 1.5fr 7fr 1.5fr;
-  grid-template-rows: auto auto auto;
-  column-gap: 1em;
-  row-gap: 1em;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,3 +43,5 @@ body,
 padding: 1em;
 text-align: center;
 }
+
+
